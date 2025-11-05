@@ -1,0 +1,46 @@
+site_name: RAG Workshop Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Project Overview: overview.md
+  - Code Walkthrough:
+    - Complete Implementation: code-walkthrough.md
+    - Data Loading: code/data-loading.md
+    - Embedding Generation: code/embeddings.md
+    - Vector Store: code/vector-store.md
+    - Retriever: code/retriever.md
+    - Generator: code/generator.md
+    - End-to-End Pipeline: code/pipeline.md
+  - Configuration: configuration.md
+  - Examples & Tutorials:
+    - Basic Text Retrieval: examples/basic-retrieval.md
+    - PDF Document Processing: examples/pdf-processing.md
+    - Evaluation: examples/evaluation.md
