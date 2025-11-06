@@ -1,10 +1,4 @@
-mkdocs>=1.5.3
-mkdocs-material>=9.4.6
-mkdocstrings>=0.23.0
-nbconvert>=7.9.2
-jupyter>=1.0.0
-pymdown-extensions>=10.3
-google-generativeai
-pypdf
-sentence-transformers
-faiss-cpu
+mkdocs==1.5.3
+mkdocs-material==9.4.6
+pymdown-extensions==10.3
+mkdocstrings==0.23.0

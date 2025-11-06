@@ -1,15 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "pip install -r requirements.txt && mkdocs build",
+  "framework": null,
+  "buildCommand": "python -m pip install --upgrade pip && python -m pip install mkdocs-material && python -m pip install -r requirements.txt && python -m mkdocs build",
   "outputDirectory": "site",
-  "installCommand": "pip install -r requirements.txt",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "site"
-      }
-    }
-  ]
+  "installCommand": "python -m pip install -r requirements.txt"
 }
