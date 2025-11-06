@@ -1,0 +1,25 @@
+{
+  "buildCommand": "pip install mkdocs mkdocs-material pymdown-extensions && mkdocs build",
+  "outputDirectory": "site",
+  "framework": "mkdocs",
+  "builds": [
+    {
+      "src": "mkdocs.yml",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "site",
+        "zeroConfig": true
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/site/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/site/index.html"
+    }
+  ]
+}

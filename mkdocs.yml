@@ -31,6 +31,7 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Project Overview: overview.md
+  - Workshop Guide: workshop.md
   - Code Walkthrough:
     - Complete Implementation: code-walkthrough.md
     - Data Loading: code/data-loading.md
@@ -43,4 +44,3 @@ nav:
   - Examples & Tutorials:
     - Basic Text Retrieval: examples/basic-retrieval.md
     - PDF Document Processing: examples/pdf-processing.md
-    - Evaluation: examples/evaluation.md
