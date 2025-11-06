@@ -1,10 +1,11 @@
 {
-  "buildCommand": "pip install mkdocs-material && mkdocs build",
+  "version": 2,
+  "buildCommand": "pip install -r requirements.txt && mkdocs build",
   "outputDirectory": "site",
   "installCommand": "pip install -r requirements.txt",
   "builds": [
     {
-      "src": "mkdocs.yml",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "site"
