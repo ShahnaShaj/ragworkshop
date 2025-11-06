@@ -1,8 +1,0 @@
-{
-  "name": "rag-workshop-docs",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "pip install -r requirements.txt && mkdocs build",
-    "dev": "mkdocs serve"
-  }
-}
