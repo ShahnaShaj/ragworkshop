@@ -1,14 +1,37 @@
-site_name: RAG Workshop Documentation
+site_name: Building a RAG System with Gemini and Hugging Face
 theme:
   name: material
+  logo: images/logo2.svg
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.instant
+    - navigation.tracking
     - navigation.top
+    - navigation.footer
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.code.annotate
     - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    logo: images/logo.png
+    repo: fontawesome/brands/github
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -28,19 +51,4 @@ markdown_extensions:
   - def_list
 
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - Project Overview: overview.md
-  - Workshop Guide: workshop.md
-  - Code Walkthrough:
-    - Complete Implementation: code-walkthrough.md
-    - Data Loading: code/data-loading.md
-    - Embedding Generation: code/embeddings.md
-    - Vector Store: code/vector-store.md
-    - Retriever: code/retriever.md
-    - Generator: code/generator.md
-    - End-to-End Pipeline: code/pipeline.md
-  - Configuration: configuration.md
-  - Examples & Tutorials:
-    - Basic Text Retrieval: examples/basic-retrieval.md
-    - PDF Document Processing: examples/pdf-processing.md
+  - Complete Guide: workshop.md
