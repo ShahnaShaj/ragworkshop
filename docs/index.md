@@ -60,16 +60,17 @@ This process allows the LLM to answer questions about specific documents it wasn
 Before we begin, you'll need:
 
 1. **Google AI API Key**:
-      - Visit [Google Cloud Console](https://console.cloud.google.com/welcome/new?_gl=1*102wd0i*_up*MQ..&gclid=Cj0KCQiAq7HIBhDoARIsAOATDxD03nn1tWTFwLnCdTyoMBDOHHjmetjqT2CSEhESxxZppjhMwjx6mt0aAs1fEALw_wcB&gclsrc=aw.ds) and sign in with your Google account
-      - Click "select a project" and create a new project
-      <img src="images/console.png" >
-      <img src="images/new project.png">
-      <img src="images/name.png">
-
-      - Now visit [Google AI Studio](https://aistudio.google.com/) and look for "Get API key" in the sidebar. Click Create API key. Import the earlier created project and click create API key
-
+      - Visit [Google AI Studio](https://aistudio.google.com/) and look for "Get API key" in the sidebar. Click Create API key.
+      
       <img src="images/ai.png">
-      <img src="images/import.png" width=600>
+      
+      - Name your key and click "create project" in the dropdown Create a new project  
+      
+      <img src="images/import.png">        
+      <img src="images/r1.png">
+      
+      - Click "Create key"
+      <img src="images/r2copy.png">
 
       - Copy and save your API key safely
       <img src="images/copy2.png">
