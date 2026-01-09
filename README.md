@@ -1,4 +1,5 @@
 # RAG Workshop Documentation
+https://ragworkshop.vercel.app/
 
 Welcome to the RAG Workshop documentation site! This site contains the documentation generated from the Jupyter notebook workshop on Retrieval Augmented Generation (RAG).
 
